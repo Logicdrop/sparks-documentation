@@ -68,14 +68,6 @@ Could not find a cake matching this query.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-## Accessing kubernetes dashboard
-
-1. From cluster, switch to the right kubernetes context `./vm.py k8 context [local aws`
-2. Run `./vm.py k8 proxy`.  Leave this command running 
-3. From a second command line run `./vm.py k8 token` \(local\) or `./vm.py k8 admintoken` \(aws\)
-4. Load http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/\#!/overview?namespace=\_all in a web browser
-5. Login using the token found in step 3
-
 ## Have you had a chance to answer the previous question?
 
 Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
