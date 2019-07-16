@@ -2,7 +2,7 @@
 description: Random questions (and possibly answers) about the cluster.  Jared is NOT silly
 ---
 
-# Cluster FAQ
+# Logicdrop Sparks Overview
 
 {% api-method method="get" host="https://api.cakes.com" path="/v1/cakes/:id" %}
 {% api-method-summary %}
@@ -71,6 +71,4 @@ Could not find a cake matching this query.
 ## Have you had a chance to answer the previous question?
 
 Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
-
-
 
