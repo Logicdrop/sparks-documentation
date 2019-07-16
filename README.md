@@ -1,5 +1,5 @@
 ---
-description: Random questions (and possibly answers) about the cluster.  Jared is silly
+description: Random questions (and possibly answers) about the cluster.  Jared is NOT silly
 ---
 
 # Cluster FAQ
