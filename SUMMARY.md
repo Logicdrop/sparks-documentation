@@ -4,12 +4,17 @@
 
 ## Lexicon
 
-* [FAQ](lexicon/untitled.md)
+* [Introduction](lexicon/introduction.md)
 * [Getting Started](lexicon/getting-started.md)
 * [Authoring Templates](lexicon/authoring-templates.md)
 * [Authoring Rules](lexicon/authoring-rules.md)
 * [Publishing Documents](lexicon/publishing-documents.md)
-* [API Resources](lexicon/api-resources.md)
+* [API Resources](lexicon/api-resources/README.md)
+  * [Authorization](lexicon/api-resources/authorization.md)
+  * [Rule](lexicon/api-resources/rule.md)
+  * [Document](lexicon/api-resources/document.md)
+  * [Project](lexicon/api-resources/project.md)
+* [FAQ](lexicon/untitled.md)
 
 ## Rules
 
