@@ -5,8 +5,8 @@
 ## Lexicon
 
 * [Introduction](lexicon/introduction.md)
-* [Quick Start \(5 min\)](lexicon/getting-started/README.md)
-  * [Installing Lexicon](lexicon/getting-started/installing-lexicon.md)
+* [Installing Lexicon](lexicon/installing-lexicon.md)
+* [Quick Start \(5 min\)](lexicon/getting-started.md)
 * [Authoring Templates](lexicon/authoring-templates.md)
 * [Authoring Rules](lexicon/authoring-rules.md)
 * [Publishing Documents](lexicon/publishing-documents.md)
