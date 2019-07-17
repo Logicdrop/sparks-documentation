@@ -1,6 +1,6 @@
 # Introduction
 
-
+![](../.gitbook/assets/lexiconicon128.png)
 
 ### What is Lexicon?
 
