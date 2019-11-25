@@ -2,22 +2,31 @@
 
 * [Logicdrop Sparks Overview](README.md)
 
-## Lexicon
+## Sparks Documents <a id="documents"></a>
 
-* [Introduction](lexicon/introduction.md)
-* [Installing Lexicon](lexicon/installing-lexicon.md)
-* [Quick Start \(5 min\)](lexicon/getting-started.md)
-* [Authoring Templates](lexicon/authoring-templates.md)
-* [Authoring Rules](lexicon/authoring-rules.md)
-* [Publishing Documents](lexicon/publishing-documents.md)
-* [API Resources](lexicon/api-resources/README.md)
-  * [Authorization](lexicon/api-resources/authorization.md)
-  * [Rule](lexicon/api-resources/rule.md)
-  * [Document](lexicon/api-resources/document.md)
-  * [Project](lexicon/api-resources/project.md)
-* [FAQ](lexicon/untitled.md)
+* [Introduction](documents/introduction.md)
+* [Installing Sparks Documents](documents/installing-sparks-documents.md)
+* [Quick Start \(5 min\)](documents/getting-started.md)
+* [Authoring Templates](documents/authoring-templates.md)
+* [Authoring Template Rules](documents/authoring-rules.md)
+* [Generating Documents](documents/generating-documents.md)
+* [FAQ](documents/untitled.md)
 
-## Rules
+## Sparks Compute Engine <a id="rules"></a>
 
-* [Untitled](rules/untitled.md)
+* [Introduction](rules/introduction.md)
+* [Authoring Decision Tables](rules/authoring-decision-tables/README.md)
+  * [Creating a Workbook](rules/authoring-decision-tables/untitled.md)
+  * [Deploying a Workbook](rules/authoring-decision-tables/deploying-a-workbook.md)
+  * [Workbook Examples](rules/authoring-decision-tables/workbook-examples.md)
+  * [Common Pitfalls](rules/authoring-decision-tables/common-pitfalls.md)
+* [Executing rules](rules/executing-rules/README.md)
+  * [Managing Containers](rules/executing-rules/managing-containers.md)
+  * [Executing a Ruleset](rules/executing-rules/executing-a-ruleset.md)
+
+## Development
+
+* [Open API](development/open-api.md)
+* [Authorization](development/authorization.md)
+* [Sample Clients](development/sample-clients.md)
 

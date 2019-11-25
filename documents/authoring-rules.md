@@ -1,0 +1,2 @@
+# Authoring Template Rules
+

@@ -1,4 +1,4 @@
-# Installing Lexicon
+# Installing Sparks Documents
 
 The Lexicon desktop application is used to author and publish document templates and rules. This application communicates with the back-office infrastructure, which unless installed on-premise, requires no additional configuration. The Lexicon client application may be installed via the installation media provided or from the below link. 
 
