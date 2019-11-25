@@ -11,8 +11,11 @@ The Sparks Compute Engine uses standardized terminology which help to clarify co
 3. **Rule set** - A collection of one or more rules relating to a single purpose.
 4. **Rules Engine** - An engine which is capable of executing one or more rule sets to produce an outcome.
 5. **Fact** - A piece of input our output data provided to or produced by the rules engine at execution time.
+6. **Rule Container** - A deployed process in Sparks which is configured to execute a rule set.
 
-All actions performed by the Sparks Compute Engine are achieved through the definition and execution of rule sets. Rules may be defined ad-hoc though the API or Portal user interface, or most commonly, uploaded as decision table created in Microsoft Excel. In the case of decision tables, each row then becomes a rule when imported with each sheet in the workbook pertaining to a rule set. 
+#### Performing Actions
+
+All actions performed by the Sparks Compute Engine are achieved through the definition and execution of rule sets. Rules may be defined ad-hoc though the API or Portal user interface, or most commonly, uploaded as decision tables created in Microsoft Excel. In the case of decision tables, each row then becomes a rule when imported with each sheet in the workbook pertaining to a rule set. 
 
 #### Facts
 
@@ -21,4 +24,14 @@ Facts in the Sparks Compute Engine provide a template for any data passed into o
 {% hint style="info" %}
 Generally it best to keep facts as flat and lean as possible to maximize the performance of the engine. For this reason, your facts defined in Sparks may often be a subset or flattened view of a more complicated data structure.
 {% endhint %}
+
+#### Containers
+
+To execute rule sets on the Sparks platform, they must first be deployed to a container. Deploying a container is as easy as calling start or rebuild from the Sparks API or using the Portal user interface. Each container is specific to a version of the rule set as the point it was built and is given a unique API URL for execution. Stopping a container cleans up the resources and shuts down the container endpoint.
+
+{% hint style="info" %}
+Multiple versions of a rule set may be published on separate container versions, making it possible to test new changes before moving dependent process to point to the new container version. 
+{% endhint %}
+
+
 
