@@ -30,5 +30,9 @@ Another common pitfall, is that users may find that string comparisons aren’t 
 
 ### **4. Property not updating**
 
-The Logicdrop Ru
+The Logicdrop Rules API allows users to process rules from multiple Decision Tables at once. This often results in Models from one table being referenced in another. When this happens, a common issue is that a property belonging to a model that was defined in Decision Table A, is not being modified in Decision Table B. For example, say that a property called name of model Person is defined in Decision Table A. In Decision Table B, say the user wants to modify this name and the used `insert:set` but it is not working. To fix this, the user must use `modify:set` instead.
+
+### **5. Excel formatting issues**
+When defining a cell as decimal, the header `FORMAT` must be set to decimal. However, users may forget to also format the cell as decimal via Excel also. This allows the cell to be readable as a decimal, but also so the rules can process the value as a decimal as well.
+
 
