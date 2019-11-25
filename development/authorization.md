@@ -30,25 +30,25 @@ Request an access token
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="Content-Type" type="string" required=false %}
+{% api-method-parameter name="Content-Type" type="string" required=true %}
 application/json
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="client\_id" type="string" required=false %}
+{% api-method-parameter name="client\_id" type="string" required=true %}
 {{Your client ID}}
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="client\_secret" type="string" required=false %}
+{% api-method-parameter name="client\_secret" type="string" required=true %}
 {{Your client secret}}
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="audience" type="string" required=false %}
+{% api-method-parameter name="audience" type="string" required=true %}
 https://api.logicdrop.io
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="grant\_type" type="string" required=false %}
+{% api-method-parameter name="grant\_type" type="string" required=true %}
 client\_credentials
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
