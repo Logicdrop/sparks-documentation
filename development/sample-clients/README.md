@@ -2,5 +2,5 @@
 description: Sample client implementations
 ---
 
-# Api Clients
+# API Clients
 
