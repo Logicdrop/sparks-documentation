@@ -10,13 +10,13 @@
 * [Authoring Templates](documents/authoring-templates.md)
 * [Authoring Template Rules](documents/authoring-rules.md)
 * [Generating Documents](documents/generating-documents.md)
-* [FAQ](documents/untitled.md)
+* [FAQ](documents/faq.md)
 
 ## Sparks Compute Engine <a id="rules"></a>
 
 * [Introduction](rules/introduction.md)
 * [Authoring Decision Tables](rules/authoring-decision-tables/README.md)
-  * [Creating a Workbook](rules/authoring-decision-tables/untitled.md)
+  * [Creating a Workbook](rules/authoring-decision-tables/creating-a-workbook.md)
   * [Deploying a Workbook](rules/authoring-decision-tables/deploying-a-workbook.md)
   * [Workbook Examples](rules/authoring-decision-tables/workbook-examples.md)
   * [Common Pitfalls](rules/authoring-decision-tables/common-pitfalls.md)
