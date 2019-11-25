@@ -1,6 +1,6 @@
 # Authorizing Requests to the API
 
-To authorize requests to the Sparks API from a back-end application, a application must be created to provide a token via the Machine Credentials OAuth2 flow.
+To authorize requests to the Sparks API from a back-end application, an application must be created to provide a token via the Machine Credentials OAuth2 flow.
 
 {% hint style="info" %}
 When using the Sparks Portal UI, the token is obtained for your specific user account in the background.
