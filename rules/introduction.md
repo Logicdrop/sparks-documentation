@@ -4,7 +4,7 @@ The Sparks Compute Engine provides a powerful environment to author and execute 
 
 ### Introduction to Business Rules and Related Terminology
 
-The Sparks Compute Engine uses standardized terminology which help to clarify concepts and procedures. 
+The Sparks Compute Engine uses standardized terminology which helps to clarify concepts and procedures. 
 
 1. **Rule** - A rule is a single atomic logic statement comprised of a "when" clause \(the condition\) and a "then" clause \(the consequences when the condition is met\).
 2. **Business Rule** - Synonymous to rule, a business rule is a rule relating to some business process or procedure.
@@ -15,7 +15,13 @@ The Sparks Compute Engine uses standardized terminology which help to clarify co
 
 #### Performing Actions
 
-All actions performed by the Sparks Compute Engine are achieved through the definition and execution of rule sets. Rules may be defined ad-hoc though the API or Portal user interface, or most commonly, uploaded as decision tables created in Microsoft Excel. In the case of decision tables, each row then becomes a rule when imported with each sheet in the workbook pertaining to a rule set. 
+All actions performed by the Sparks Compute Engine are achieved through the definition and execution of rule sets. Rules are not executed in sequence, but rather compiled into a decision tree by the engine and executed simultaneously. 
+
+{% hint style="info" %}
+Note that it is possible for one rule's output to affect the input condition of another. In this case, the affected branches of the decision tree are re-executed until the state is no longer mutated or the execution limit is exhausted. 
+{% endhint %}
+
+Rules may be defined ad-hoc though the API or Portal user interface, or most commonly, uploaded as decision tables created in Microsoft Excel. In the case of decision tables, each row then becomes a rule when imported with each sheet in the workbook pertaining to a rule set. 
 
 #### Facts
 

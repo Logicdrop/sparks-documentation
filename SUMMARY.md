@@ -6,11 +6,6 @@
 
 * [Introduction to Sparks Documents](documents/introduction.md)
 * [Installing Sparks Documents](documents/installing-sparks-documents.md)
-* [Quick Start \(5 min\)](documents/getting-started.md)
-* [Authoring Templates](documents/authoring-templates.md)
-* [Authoring Template Rules](documents/authoring-rules.md)
-* [Generating Documents](documents/generating-documents.md)
-* [FAQ](documents/faq.md)
 
 ## Sparks Compute Engine <a id="rules"></a>
 
@@ -28,5 +23,6 @@
 
 * [Open API](development/open-api.md)
 * [Obtaining a Token](development/authorization.md)
-* [Sample Clients](development/sample-clients.md)
+* [Sample Clients](development/sample-clients/README.md)
+  * [Java](development/sample-clients/java.md)
 
