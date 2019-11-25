@@ -102,7 +102,7 @@ When a token is close to expiration, repeat the token request to obtain a fresh 
 
 ### Rotating Secrets and Revoking Access
 
-It is recommended occasionally to rotate the secret for your issued application credentials. Using the rotate secret option in the Portal UI or Sparks API will rotate and return a new secret \(the old secret will no longer function.\) 
+It is recommended occasionally to rotate the secret for your issued application credentials. Using the rotate secret option in the Portal UI or Sparks API will rotate and return a new secret \(the old secret will no longer function.\) Use the new secret to update any dependent clients.
 
 If you wish to remove access completely for an application, deleting the application in the Portal UI or Sparks API will decommission it for future token requests. Note that it may take up to 24 hours for all tokens issues with these credentials to expire.
 
