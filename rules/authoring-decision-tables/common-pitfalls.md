@@ -1,6 +1,10 @@
-# Common Pitfalls
+---
+description: >-
+  This section outlines some common issues and the solutions that users may face
+  when creating, modifying, and executing a Decision Table.
+---
 
-This section outlines some common issues and the solutions that users may face when creating, modifying, and executing a Decision Table.
+# Common Pitfalls
 
 ### 1. Formula in rule cell not working
 
