@@ -14,9 +14,15 @@ An application credential allows access to the Sparks API for a single client at
 2. Create a new application and specify the role to designate \(usually Admin.\)
 3. Make note of the newly assigned `Client ID` and `Client Secret`.
 
+An application may also be created from the Sparks API \(with a valid token of course\): [Sparks API: Create an Application](https://docs.logicdrop.io/#operation/createApplication)
+
+{% hint style="warning" %}
+Be careful with these credentials! Practice good secret management and never share them or check them in to source control, or others may gain access to your Sparks account data.
+{% endhint %}
+
 ### Obtaining a token
 
-The following request can be made to the Sparks Authorization server to obtain a token.
+Next, use the client ID and secret you obtained to make a token request to the Sparks Authorization server:
 
 {% api-method method="post" host="https://auth.logicdrop.io" path="/oauth/token" %}
 {% api-method-summary %}
