@@ -24,6 +24,15 @@ Be careful with these credentials! Practice good secret management and never sha
 
 Next, use the client ID and secret you obtained to make a token request to the Sparks Authorization server:
 
+```bash
+{
+    "client_id":"{{Your client ID}}",
+    "client_secret":"{{Your client secret}}",
+    "audience":"https://api.logicdrop.io",
+    "grant_type":"client_credentials"
+}
+```
+
 {% api-method method="post" host="https://auth.logicdrop.io" path="/oauth/token" %}
 {% api-method-summary %}
 Request a token
