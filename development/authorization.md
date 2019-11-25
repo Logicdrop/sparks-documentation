@@ -6,7 +6,7 @@ To authorize requests to the Sparks API from a back-end application, an applicat
 When using the Sparks Portal UI, the token is obtained for your specific user account in the background.
 {% endhint %}
 
-### Create a machine-to-machine credential
+### Creating a machine-to-machine credential
 
 An application credential allows access to the Sparks API for a single client at a specified role. 
 
