@@ -8,7 +8,7 @@ When using the Sparks Portal UI, a token is obtained for your specific user acco
 
 ### Creating a machine-to-machine credential
 
-An application credential allows access to the Sparks API for a single client at a specified role. 
+An application credential allows access to the Sparks API for a specific client at a specified role. 
 
 1. In the Sparks Portal user interface, access the client settings, then applications. 
 2. Create a new application and specify the role to designate \(usually Admin.\)
