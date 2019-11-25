@@ -1,10 +1,10 @@
-# Introduction
+# Introduction to Sparks Documents
 
 ![](../.gitbook/assets/lexiconicon128.png)
 
 ## What is Sparks Documents?
 
-Sparks Documents is an enterprise document publishing and automation system targeted at medium-to-large enterprises to address the problem of generating customized documents according to complex rules. This software dramatically shortens the time required to generate documents which require unique customization, including contracts, commercial lending documents, and correspondence. Our solution reduces risk, ensures compliance to institutional and government rules and encourages the collection of business knowledge in one place \(instead of disbursed in human capital and varying forms of documentation.\) _\*\*_
+Sparks Documents is an enterprise document publishing and automation system targeted at medium-to-large enterprises to address the problem of generating customized documents according to complex rules. This software dramatically shortens the time required to generate documents which require unique customization, including contracts, commercial lending documents, and correspondence. Our solution reduces risk, ensures compliance to institutional and government rules and encourages the collection of business knowledge in one place \(instead of disbursed in human capital and varying forms of documentation.\)
 
 ## How does it work?
 

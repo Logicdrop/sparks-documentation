@@ -4,7 +4,7 @@
 
 ## Sparks Documents <a id="documents"></a>
 
-* [Introduction](documents/introduction.md)
+* [Introduction to Sparks Documents](documents/introduction.md)
 * [Installing Sparks Documents](documents/installing-sparks-documents.md)
 * [Quick Start \(5 min\)](documents/getting-started.md)
 * [Authoring Templates](documents/authoring-templates.md)
@@ -14,7 +14,7 @@
 
 ## Sparks Compute Engine <a id="rules"></a>
 
-* [Introduction](rules/introduction.md)
+* [Introduction to Sparks Compute Engine](rules/introduction.md)
 * [Authoring Decision Tables](rules/authoring-decision-tables/README.md)
   * [Creating a Workbook](rules/authoring-decision-tables/creating-a-workbook.md)
   * [Deploying a Workbook](rules/authoring-decision-tables/deploying-a-workbook.md)
