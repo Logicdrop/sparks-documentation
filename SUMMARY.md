@@ -27,5 +27,6 @@
   * [.Net Core API Client](development/sample-clients/.net-core-api-client.md)
   * [Python API Client](development/sample-clients/python-api-client.md)
   * [NodeJS Client](development/sample-clients/nodejs-client.md)
+  * [Java \(Spring\) API Client](development/sample-clients/java-spring-api-client.md)
   * [Java API Client](development/sample-clients/java.md)
 
