@@ -4,26 +4,13 @@ description: This sections outlines how to deploy or update a workbook once crea
 
 # Deploying a Workbook
 
-## Getting Super Powers
-
-Becoming a super hero is a fairly straight forward process:
-
+Deploying a workbook with the Logicdrop Sparks Platform is just making a simple API request. The user will do a POST request to the following endpoint:
+```text
+/compute/{client}/{project}/{ruleset}/generate
 ```
-$ give me super-powers
-```
+In the body of the request, attach the workbook xlsx with the key name "file" as form-data.
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
 
-Once you're strong enough, save the world:
-
-{% code title="hello.sh" %}
-```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-{% endcode %}
 
 
 
