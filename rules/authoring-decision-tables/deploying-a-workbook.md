@@ -1,3 +1,7 @@
+---
+description: This sections outlines how to deploy or update a workbook once created.
+---
+
 # Deploying a Workbook
 
 ## Getting Super Powers
