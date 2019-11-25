@@ -4,7 +4,13 @@ Logicdrop Sparks employs the Open API spec to expose the definitions of all Spar
 
 > [**Browse the Sparks Open API Spec**](https://docs.logicdrop.io/)\*\*\*\*
 
+\*\*\*\*
+
+{% page-ref page="authorization.md" %}
+
 {% page-ref page="sample-clients/" %}
+
+{% page-ref page="example-applications.md" %}
 
 
 
