@@ -16,6 +16,7 @@
 
 * [Introduction](rules/introduction.md)
 * [Authoring Decision Tables](rules/authoring-decision-tables/README.md)
+  * [Untitled](rules/authoring-decision-tables/untitled.md)
   * [Creating a Workbook](rules/authoring-decision-tables/creating-a-workbook.md)
   * [Deploying a Workbook](rules/authoring-decision-tables/deploying-a-workbook.md)
   * [Workbook Examples](rules/authoring-decision-tables/workbook-examples.md)
