@@ -27,6 +27,6 @@
 ## Development
 
 * [Open API](development/open-api.md)
-* [Authorization](development/authorization.md)
+* [Obtaining a Token](development/authorization.md)
 * [Sample Clients](development/sample-clients.md)
 

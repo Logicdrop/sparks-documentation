@@ -1,2 +1,2 @@
-# Authorization
+# Obtaining a Token
 
