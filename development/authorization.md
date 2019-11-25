@@ -96,5 +96,13 @@ Finally, use the token you have obtained in requests to the Sparks API by includ
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1N...
 ```
 
+### Refreshing the token
 
+When a token is close to expiration, repeat the token request to obtain a fresh token. At this time the authorization server does not accept refresh tokens for machine-to-machine tokens for security. The default token expiration is 24 hours.
+
+### Rotating Secrets and Revoking Access
+
+It is recommended occasionally to rotate the secret for your issued application credentials. Using the rotate secret option in the Portal UI or Sparks API will rotate and return a new secret \(the old secret will no longer function.\) 
+
+If you wish to removing access completely for an application, deleting the application in the Portal UI or Sparks API will decommission for future token requests.
 
