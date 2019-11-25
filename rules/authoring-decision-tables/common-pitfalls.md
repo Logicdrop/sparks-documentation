@@ -1,8 +1,6 @@
 # Common Pitfalls
 
-
-
-The following are some common issues that users may face when creating/modifying the Decision Table, and processing rules based off it and the solutions to these issues:
+This section outlines some common issues and the solutions that users may face when creating, modifying, and executing a Decision Table.
 
 ### 1. Formula in rule cell not working
 
@@ -24,7 +22,7 @@ Users sometimes copy the same value in multiple rows in the same column. To save
 
 ### **3. String comparison not working**
 
-Another common pitfall, is that users may find that string comparisons aren’t properly functioning. A common reason is forgetting to include modifiers such as lc \(lower case\) or uc\(upper case\).
+Another common pitfall, is that users may find that string comparisons aren’t properly functioning. A common reason is forgetting to include modifiers such as `lc` \(lower case\) or `uc` \(upper case\).
 
 ### **4. Property not updating**
 
