@@ -104,5 +104,5 @@ When a token is close to expiration, repeat the token request to obtain a fresh 
 
 It is recommended occasionally to rotate the secret for your issued application credentials. Using the rotate secret option in the Portal UI or Sparks API will rotate and return a new secret \(the old secret will no longer function.\) 
 
-If you wish to removing access completely for an application, deleting the application in the Portal UI or Sparks API will decommission for future token requests.
+If you wish to remove access completely for an application, deleting the application in the Portal UI or Sparks API will decommission it for future token requests.
 
