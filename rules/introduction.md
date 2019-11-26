@@ -1,6 +1,6 @@
-# Introduction to Sparks Compute Engine
+# Introduction to Sparks Compute
 
-The Sparks Compute Engine provides a powerful environment to author and execute process which perform decision making, data augmentation, validation and more on a proven and scalable platform. All provisioning, container management, deployment and scalability is handled by the platform, allowing an API to be defined and provisioned as simply as uploading an excel workbook.
+The Sparks Compute service provides a powerful environment to author and execute process which perform decision making, data augmentation, validation and more on a proven and scalable platform. All provisioning, container management, deployment and scalability is handled by the platform, allowing an API to be defined and provisioned as simply as uploading an excel workbook.
 
 ### Introduction to Business Rules and Related Terminology
 
