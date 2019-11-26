@@ -15,9 +15,6 @@
   * [Deploying a Workbook](rules/authoring-decision-tables/deploying-a-workbook.md)
   * [Workbook Examples](rules/authoring-decision-tables/workbook-examples.md)
   * [Common Pitfalls](rules/authoring-decision-tables/common-pitfalls.md)
-* [Executing rules](rules/executing-rules/README.md)
-  * [Managing Containers](rules/executing-rules/managing-containers.md)
-  * [Executing a Ruleset](rules/executing-rules/executing-a-ruleset.md)
 
 ## Development
 
