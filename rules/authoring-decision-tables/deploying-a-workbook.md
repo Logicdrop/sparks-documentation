@@ -8,7 +8,7 @@ description: This sections outlines how to deploy or update a workbook once crea
 
 Deploying a workbook with the Logicdrop Sparks Platform is just making a simple API request. The user will do a POST request to the following endpoint:
 
-{% api-method method="post" host="" path="/compute/{client}/{project}/{artifact}/generate" %}
+{% api-method method="post" host="" path="/compute/:client/:project/:artifact/generate" %}
 {% api-method-summary %}
 
 {% endapi-method-summary %}
