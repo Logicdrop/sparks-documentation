@@ -9,7 +9,7 @@
 Install the Sparks API package via:
 
 ```text
-npm install sparks_open_api --save
+npm install @logicdrop/sparks-openapi-nodejs --save
 ```
 
 Finally, you need to build the module:
@@ -49,7 +49,7 @@ module: {
 To use the API Client, follow this example code:
 
 ```javascript
-var SparksOpenApi = require('sparks_open_api');
+var SparksOpenApi = require('@logicdrop/sparks-openapi-nodejs');
 
 var defaultClient = SparksOpenApi.ApiClient.instance;
 // Configure OAuth2 access token for authorization: oauth2
@@ -58,7 +58,7 @@ oauth2.tokenUrl = "https://api.staging.com/oauth2/token";
 oauth2.clientId = "YOUR APPLICATION ID";
 oauth2.clientSecret = "YOUR APPLICATION SECRET";
 
-var api = new SparksOpenApi.CacheServicesApi()
+var api = new SparksOpenApi.CacheServicesApi(oauth2)
 var client = "client_example"; // {String} Client name
 var cache = "cache_example"; // {String} Cache name
 var key = "key_example"; // {String} Entry key
