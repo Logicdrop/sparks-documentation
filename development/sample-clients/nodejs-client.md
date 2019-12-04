@@ -1,47 +1,25 @@
-# NodeJS API Client
+# [Node.js](https://nodejs.org/) API Client
+A Javascript package which uses the `request` package to perform the Sparks API calls
 
 ## Installation
 
-### For [Node.js](https://nodejs.org/)
+#### Access NPM Package
+To access the NPM package, you will need to add a `.npmrc` file to the root of your
+project. The file should contain the following content,
 
-#### npm
+```
+registry={repo-location}
+_auth={auth-secret}
+```
+
+You can retrieve your `auth-secret` and `repo-location` from the project admin.
+
+#### Install NPM Package
 
 Install the Sparks API package via:
 
 ```text
-npm install @logicdrop/sparks-openapi-nodejs --save
-```
-
-Finally, you need to build the module:
-
-```text
-npm run build
-```
-
-### For browser
-
-The library also works in the browser environment via npm and [browserify](http://browserify.org/). After following the above steps with Node.js and installing browserify with `npm install -g browserify`, perform the following \(assuming _main.js_ is your entry file\):
-
-```text
-browserify main.js > bundle.js
-```
-
-Then include _bundle.js_ in the HTML pages.
-
-### Webpack Configuration
-
-Using Webpack you may encounter the following error: "Module not found: Error: Cannot resolve module", most certainly you should disable AMD loader. Add/merge the following section to your webpack config:
-
-```javascript
-module: {
-  rules: [
-    {
-      parser: {
-        amd: false
-      }
-    }
-  ]
-}
+npm install @logicdrop/sparks-openapi-nodejs
 ```
 
 ## Getting Started
