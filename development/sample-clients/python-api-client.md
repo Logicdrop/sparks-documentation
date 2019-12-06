@@ -46,8 +46,7 @@ from logicdrop.sparks.openapi.api.project_services_api import ProjectServicesApi
 from logicdrop.sparks.openapi.configuration import Configuration
 from logicdrop.sparks.openapi.api_client import ApiClient
 
-configuration = Configuration()
-configuration.access_token = 'ACCESS_TOKEN'
+configuration = Configuration(client_id="CLIENT_ID", client_secret="CLIENT_SECRET")
 
 project_service = ProjectServicesApi(ApiClient(configuration))
 client = 'CLIENT_NAME'
