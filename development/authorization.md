@@ -20,9 +20,9 @@ The client ID will be the same for every request.
 {
     "client_id":"rLxjriMyfD3PAdXTQfFyKFUODrseHvSg",
     "username": "{{Your username}}",
-	"password":"{{Your password}}",
-	"audience":"https://api.logicdrop.io",
-	"grant_type":"password"
+    "password":"{{Your password}}",
+    "audience":"https://api.logicdrop.io",
+    "grant_type":"password"
 }
 ```
 
