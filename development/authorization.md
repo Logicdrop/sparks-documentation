@@ -28,7 +28,7 @@ The client ID will be the same for every request.
 
 {% api-method method="post" host="https://auth.logicdrop.io" path="/oauth/token" %}
 {% api-method-summary %}
-Request a token
+Request a Password token
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -128,7 +128,7 @@ Next, use the client ID and secret you obtained to make a token request to the S
 
 {% api-method method="post" host="https://auth.logicdrop.io" path="/oauth/token" %}
 {% api-method-summary %}
-Request a token
+Request a M2M token
 {% endapi-method-summary %}
 
 {% api-method-description %}
