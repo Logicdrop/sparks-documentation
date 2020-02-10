@@ -4,7 +4,7 @@
 
 ## Sparks Platform
 
-* [5-Minute Quickstart](sparks-platform/untitled.md)
+* [5-Minute Quickstart](sparks-platform/quickstart.md)
 * [Business Rules Engines and Related Terminology](sparks-platform/compute-intro.md)
 * [Authoring Decision Tables](sparks-platform/authoring-decision-tables/README.md)
   * [Creating a Workbook](sparks-platform/authoring-decision-tables/creating-a-workbook.md)
