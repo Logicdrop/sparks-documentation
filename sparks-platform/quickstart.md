@@ -48,15 +48,15 @@ Click the **Calculate Policy Price** Ruleset to open it.
 
 The home page for each ruleset lists the **Containers**.
 
+![](../.gitbook/assets/container.png)
+
 {% hint style="info" %}
 A **Container** in Sparks is a running instance of a **Ruleset**, at a specific version. Each container starts a unique endpoint which can be used to execute the rules within.
 
 [→ More on Containers](compute-intro.md#containers)
 {% endhint %}
 
-![](../.gitbook/assets/container.png)
-
-Click the **Publish** button on the default container for our ruleset. The latest version of all the rules in this container will then be be built automatically started. Once published, the container can be started or stopped from this interface.
+Click the **Publish** button on the default `1.0.0` container for our ruleset. The latest version of all the rules in this container will then be be built automatically started. Once published, the container can be started or stopped from this interface.
 
 {% hint style="warning" %}
 Note that if a container fails to publish due to errors in a rule, the previous version will be used when that container is started or executed.
