@@ -37,7 +37,7 @@ Click **Create Project**, then click the newly created project label to open it.
 Once your project is open, click **Rules** from the left hand navigation menu.
 
 {% hint style="info" %}
-A **Ruleset** in Sparks is a group of business rules, or logical statements, which work together to achieve a common task. Examples include calculating a shipping cost, scoring a lead, or approving an insurance application.
+A **Ruleset** in Sparks is a group of business rules, or logical statements, which work together to achieve a common task. Examples include calculating a shipping cost, scoring a lead, or approving an insurance application. 
 
 [→ More on Rules](compute-intro.md)
 {% endhint %}
@@ -46,7 +46,7 @@ A **Ruleset** in Sparks is a group of business rules, or logical statements, whi
 
 Click the **Calculate Policy Price** Ruleset to open it.
 
-You are now taken to the hope page of the ruleset. On the first tab, the **Containers** for the ruleset are listed:
+The home page for each ruleset lists the **Containers**.
 
 ![](../.gitbook/assets/container.png)
 
@@ -74,7 +74,7 @@ The **Test Ruleset** page is a convenient way to test your running rulesets, and
 Note that _at least one_ container must be running to use the Test Ruleset page
 {% endhint %}
 
-To run a ruleset, a container must be **Executed**. This means that data is passed in as inputs to a request to the running container, the rules are fired, and any modified or newly created data by the rules are returned back.
+To run a ruleset, a container must be **Executed**. This means that data is passed in as inputs to a request to the running container, the rules are fired, and any modified or newly created data by the rules are returned back. 
 
 For convince, input requests may be saved and recalled. In this example, we will now select the stored “**calculate-policy-price**” input from the Input drop-down on the left hand pane. This loads a JSON object describing a 24-year-old male driver and some additional facts about their vehicle accessories and base policy.
 
@@ -82,7 +82,7 @@ Now, click **Run** and the inputs will be sent to the running container.
 
 In the right-hand pane you can now view the output results. Look for the "policy" fact in the result set. It should reveal an `approved` status of true and a calculated `insurancePrice`. These values are entirely calculated by the defined rules.
 
-### Testing Different Inputs
+#### Testing Different Inputs
 
 Next, let's make some changes to the input data:
 
@@ -127,9 +127,9 @@ Some other things to try:
 
 ## Closing
 
-You have now created, deployed, and tested a running web service to calculate insurance pricing for a fictional underwriter. This service is running in the cloud and can can easily scale to tens of thousands of requests or more.
+You have now created, deployed, and tested a running web service to calculate insurance pricing for a fictional underwriter. This service is running in the cloud and can can easily scale to tens of thousands of requests or more. 
 
-We hope this small preview has been helpful in showing a glimpse of some Sparks Platform functionality. Next, we recommend continuing to learn about [Business Rules Engines and their terminology](compute-intro.md), and then continue though the [more in depth areas](authoring-decision-tables/) of the documentation.
+We hope this small preview has been helpful in showing a glimpse of some Sparks Platform functionality. Next, we recommend continuing to learn about Business Rules Engines and their terminology, and then continue though the more in depth areas of the documentation. 
 
 More advanced users and developers will find it useful to read the API documentation on how to achieve each of these steps though our comprehensive [REST API](https://docs.logicdrop.io).
 
