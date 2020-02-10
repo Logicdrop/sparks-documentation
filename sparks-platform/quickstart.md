@@ -109,14 +109,11 @@ Next, let's make some changes to the input data:
             "alarmSystemValue": 350.00,
             "armorValue": 1500.00,
             "soundSystemValue": 700.00
-        },
-        {
-            "_class": "policy",
-            "basePrice": 500.00
         }
     ],
     "outputs": [
-        "policy"
+        "policy",
+        "rejection"
     ]
 }
 ```
