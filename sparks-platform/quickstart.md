@@ -6,7 +6,7 @@ description: >-
 
 # 5-Minute Quickstart
 
-## Create an Account
+## Create an account
 
 In order to start using the Logicdrop Sparks Platform, you will need to register with a valid email and fill out a few details.
 
@@ -32,7 +32,7 @@ Provide a project name, set the project type to **Template,** and select “insu
 
 Click **Create Project**, then click the newly created project label to open it.
 
-## Publish a Ruleset
+## Publish a ruleset
 
 Once your project is open, click **Rules** from the left hand navigation menu.
 
@@ -62,7 +62,7 @@ Click the **Publish** button on the default container for our ruleset. The lates
 Note that if a container fails to publish due to errors in a rule, the previous version will be used when that container is started or executed.
 {% endhint %}
 
-## Testing a Ruleset
+## Testing a ruleset
 
 Now, to test our rules. Click **Test Ruleset** in the upper right-hand corner of the open **Calculate Policy Price** Ruleset.
 
