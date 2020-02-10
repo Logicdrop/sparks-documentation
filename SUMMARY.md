@@ -1,20 +1,21 @@
 # Table of contents
 
-* [Logicdrop Sparks Overview](README.md)
+* [Introduction to the Logicdrop Sparks Platform](README.md)
+
+## Sparks Platform
+
+* [5-Minute Quickstart](sparks-platform/untitled.md)
+* [Business Rules Engines and Related Terminology](sparks-platform/compute-intro.md)
+* [Authoring Decision Tables](sparks-platform/authoring-decision-tables/README.md)
+  * [Creating a Workbook](sparks-platform/authoring-decision-tables/creating-a-workbook.md)
+  * [Deploying a Workbook](sparks-platform/authoring-decision-tables/deploying-a-workbook.md)
+  * [Workbook Examples](sparks-platform/authoring-decision-tables/workbook-examples.md)
+  * [Common Pitfalls](sparks-platform/authoring-decision-tables/common-pitfalls.md)
 
 ## Sparks Documents <a id="documents"></a>
 
 * [Introduction to Sparks Documents](documents/introduction.md)
 * [Installing Sparks Documents](documents/installing-sparks-documents.md)
-
-## Sparks Compute <a id="rules"></a>
-
-* [Introduction to Sparks Compute](rules/introduction.md)
-* [Authoring Decision Tables](rules/authoring-decision-tables/README.md)
-  * [Creating a Workbook](rules/authoring-decision-tables/creating-a-workbook.md)
-  * [Deploying a Workbook](rules/authoring-decision-tables/deploying-a-workbook.md)
-  * [Workbook Examples](rules/authoring-decision-tables/workbook-examples.md)
-  * [Common Pitfalls](rules/authoring-decision-tables/common-pitfalls.md)
 
 ## Development
 

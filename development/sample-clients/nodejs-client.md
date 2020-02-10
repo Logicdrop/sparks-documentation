@@ -1,20 +1,21 @@
-# [Node.js](https://nodejs.org/) API Client
+# NodeJS API Client
+
 A Javascript package which uses the `request` package to perform the Sparks API calls
 
 ## Installation
 
-#### Access NPM Package
-To access the NPM package, you will need to add a `.npmrc` file to the root of your
-project. The file should contain the following content,
+### Access NPM Package
 
-```
+To access the NPM package, you will need to add a `.npmrc` file to the root of your project. The file should contain the following content,
+
+```text
 registry={repo-location}
 _auth={auth-secret}
 ```
 
 You can retrieve your `auth-secret` and `repo-location` from the project admin.
 
-#### Install NPM Package
+### Install NPM Package
 
 Install the Sparks API package via:
 

@@ -49,11 +49,11 @@ rLxjriMyfD3PAdXTQfFyKFUODrseHvSg
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="username" type="string" required=true %}
-{{Your username}}
+
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="password" type="string" required=true %}
-{{Your password}}
+
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="audience" type="string" required=true %}
@@ -72,7 +72,7 @@ password
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
     "access_token": "eyJ0eXAiOiJKV1QiLCJhbG...",
     "scope": "data admin core",
@@ -101,7 +101,7 @@ When a token is close to expiration, repeat the token request to obtain a fresh 
 
 ### Creating a machine-to-machine credential
 
-An application credential allows access to the Sparks API for a specific client at a specified role. 
+An application credential allows access to the Sparks API for a specific client at a specified role.
 
 1. In the Sparks Portal user interface, access the client settings, then applications. 
 2. Create a new application and specify the role to designate \(usually Admin.\)
@@ -145,11 +145,11 @@ application/json
 
 {% api-method-body-parameters %}
 {% api-method-parameter name="client\_id" type="string" required=true %}
-{{Your client ID}}
+
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="client\_secret" type="string" required=true %}
-{{Your client secret}}
+
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="audience" type="string" required=true %}
@@ -168,7 +168,7 @@ client\_credentials
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
     "access_token": "eyJ0eXAiOiJKV1QiLCJhbG...",
     "scope": "data admin core",
