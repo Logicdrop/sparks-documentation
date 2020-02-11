@@ -46,7 +46,7 @@ A **Ruleset** in Sparks is a group of business rules, or logical statements, whi
 
 Click the **Calculate Policy Price** Ruleset to open it.
 
-You are now taken to the hope page of the ruleset. On the first tab, the **Containers** for the ruleset are listed:
+You are now taken to the home page of the ruleset. On the first tab, the **Containers** for the ruleset are listed:
 
 ![](../.gitbook/assets/container.png)
 
