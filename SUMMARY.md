@@ -19,6 +19,7 @@
   * [Decision Tables](sparks-platform/rulesets/decision-tables.md)
   * [Rulesets API](sparks-platform/rulesets/rulesets-api/README.md)
     * [Executing Rules](sparks-platform/rulesets/rulesets-api/executing-rules.md)
+* [FAQs](sparks-platform/faqs.md)
 * [Guides](sparks-platform/sparks-guides/README.md)
   * [5-Minute Quickstart](sparks-platform/quickstart.md)
   * [Authoring Decision Tables](sparks-platform/authoring-decision-tables/README.md)

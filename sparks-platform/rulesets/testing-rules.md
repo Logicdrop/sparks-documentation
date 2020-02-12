@@ -35,6 +35,10 @@ When testing rules they will always expect some “input” in a standardized st
 
 The structure of the simple “input/output” payload used for testing is described in detail at [Anatomy of a Processor Request](https://docs.google.com/document/d/1VDsfZqm9KlnyusU7HP_W2RSeNLOwdEP7aSL2iMoZPxc/edit#heading=h.bkbnc7qneucm).
 
+{% page-ref page="rulesets-api/executing-rules.md" %}
+
+
+
 ## Running a Test
 
 1. Select the container\(s\) you want to test against.
