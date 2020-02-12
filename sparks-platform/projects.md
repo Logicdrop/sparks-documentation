@@ -38,14 +38,14 @@ After the project has been created it will appear in the list of active projects
 
 To open a project, simply click it's name for the project list screen. Alternatively, the project menu in the top navigation bar can be used to quickly switch between different projects.
 
-After a project has been opened, its the project home page is presented. From here the user may update the project description \(a useful wiki-like area for in-depth description of the project's purpose and structure\) or jump to one of the various work spaces in the project.
+After a project has been opened, its the project home page is presented. From here the user may update the project description \(a useful wiki-like area for in-depth description of the project's purpose and structure\) or jump to one of the various workspaces in the project.
 
-Each work space exposes specific functionality to manage what we refer to as artifacts. Artifact is a generic term that defines the type of item managed within its own work space \(i.e. Rulesets manages rules, Datasets manages data, etc.\).   
+Each workspace exposes specific functionality to manage what we refer to as artifacts. Artifact is a generic term that defines the type of item managed within its own work space \(i.e. Rulesets manages rules, Datasets manages data, etc.\).   
 
 
 ![](https://lh4.googleusercontent.com/XqDG_7eu3sHFV0oWm91zfzLdpmiMOaeDcI0adOqDvyqNH_qR6Fzkqe9ZxZr31MwQOMptT9M1--UdUpQmm8ZuJK5QCx_wMcyzJJov0FFquamgOQzMAXhkDCVZyS-mtErwJ2qMsMI1)
 
-The current work spaces available in a project are:
+The current workspaces available in a project are:
 
 * **Datasets** for manipulating data
 * **Rulesets** for designing and debugging rules
