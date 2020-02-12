@@ -1,7 +1,5 @@
 # Working with Projects
 
-
-
 ## Creating a project
 
 Projects may be created empty, as a blank project, or created from a template. We have a growing number of helpful template projects with are useful for learning and as convenient starting points.  
