@@ -8,7 +8,7 @@ description: >-
 
 To demonstrate the process of creating a decision table, we will create a simple example to perform the calculation of Shipping Fees. The example may be [downloaded here](workbook-examples.md).
 
-![](../../.gitbook/assets/0.png)
+![](../../../.gitbook/assets/0.png)
 
 The rules created from this Decision Table specify how to create a total Shipping Fee based on a client’s area and their subscription type.
 
@@ -24,7 +24,7 @@ These sections and the necessary values to input for each are described in furth
 
 At the top of the decision table are several information headings to fill out:
 
-![](../../.gitbook/assets/1.png)
+![](../../../.gitbook/assets/1.png)
 
 1. **Name**: The decision table name.
 2. **Description**: \(Optional\) description for this decision table.
@@ -39,7 +39,7 @@ In the case of a business user creating a Decision Table for Shipping Fees, the 
 
 After this, the headings governing the logic for the decision table begin.
 
-![](../../.gitbook/assets/2.png)
+![](../../../.gitbook/assets/2.png)
 
 Each of these headings apply to each column of the table:
 
@@ -82,7 +82,7 @@ For the consequences, the actions “modify” and “insert” can be combined 
 
 Finally, we have the rules section, where the user can define values to match or compare against and set the consequences for those conditions. For reference, here is the full rule section and column headers from the sample Decision Table above \(the grey bold boxes are purely cosmetic and used for user readability\):
 
-![](../../.gitbook/assets/3.png)
+![](../../../.gitbook/assets/3.png)
 
 Let’s walk-through the first row of the rules so we can see how the column headers integrate with the rules themselves:
 
