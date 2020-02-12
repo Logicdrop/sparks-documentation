@@ -38,7 +38,8 @@ Some use cases where the Sparks Platform has been or is being used now are:
     </tr>
     <tr>
       <td style="text-align:left">
-        <p>Insurance</p>
+        <p><b>Insurance</b>
+        </p>
         <p>- Rating and categorization</p>
         <p>- Automated underwriting</p>
         <p>- Compliance</p>
