@@ -1,18 +1,6 @@
-# Projects
+# Working with Projects
 
-## Overview
 
-Everything in the Sparks Platform revolves around the concept of a project. A project allows convenient grouping of many associated artifacts, such as **Datasets**, **Rulesets**, and **Assets**. A project and its artifacts usually define a specific domain or purpose.
-
-Some project examples could be an insurance project that calculates a risk score and manages policy and risk data or a lending project that has rules relating to commercial properties and data about those properties and lenders.
-
-Projects can be shared, imported/exported, and versioned. Anything created within a project will inherit its common properties as a starting point \(i.e. version\).
-
-Whether you are using the portal or the API, a good way to think of a project is as the “entry-point” into its related artifacts.
-
-{% hint style="info" %}
-From the API, most requests require at least the client, and additionally the project, in the path such as  `/[service]/{client}/{project}/{operation}`
-{% endhint %}
 
 ## Creating a project
 
@@ -21,7 +9,7 @@ Projects may be created empty, as a blank project, or created from a template. W
 
 To create a new project, simply navigate to the Sparks Portal home screen and click **New Project.** 
 
-![](../.gitbook/assets/create-project.png)
+![](../../.gitbook/assets/create-project.png)
 
 Simply select a new blank or template project, and provide a name or the new project. Optionally, tags may be specified for a blank project. These tags are user-controlled and can be used to identify the domain of a project, environments, and more.
 
@@ -58,8 +46,4 @@ To manage the details of a project, or remove it, simply use the actions menu. E
 {% hint style="danger" %}
 Be cautious when removing a project, as the operation may not be undone and any containing rules and data will be deleted.
 {% endhint %}
-
-## Projects API
-
-For details about the Projects API, please view our [**API Documentation**](https://docs.logicdrop.io/#tag/Project-Services).
 

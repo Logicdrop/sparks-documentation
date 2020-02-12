@@ -129,7 +129,7 @@ Some other things to try:
 
 You have now created, deployed, and tested a running web service to calculate insurance pricing for a fictional underwriter. This service is running in the cloud and can easily scale to tens of thousands of requests or more.
 
-We hope this small preview has been helpful in showing a glimpse of some Sparks Platform functionality. Next, we recommend continuing to learn about [Business Rules Engines and their terminology](compute-intro.md), and then continue through the [more in depth areas](authoring-decision-tables/) of the documentation.
+We hope this small preview has been helpful in showing a glimpse of some Sparks Platform functionality. Next, we recommend continuing to learn about [Business Rules Engines and their terminology](compute-intro.md), and then continue through the [more in depth areas](sparks-guides/authoring-decision-tables/) of the documentation.
 
 More advanced users and developers will find it useful to read the API documentation on how to achieve each of these steps though our comprehensive [REST API](https://docs.logicdrop.io).
 
