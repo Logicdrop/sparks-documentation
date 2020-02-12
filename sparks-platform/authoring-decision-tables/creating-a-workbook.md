@@ -6,10 +6,6 @@ description: >-
 
 # Creating a Workbook
 
-The Logicdrop Sparks Platform offers an API for ingesting a Decision Table and turning a Microsoft Excel workbook into rules that can be executed against input data \(facts\). This Decision Table format is unique to Logicdrop and is simple and easy-to-use for any end-user to create and modify. This section will walk through how to use this Decision Table format by leading you through an example.
-
-## Overview
-
 To demonstrate the process of creating a decision table, we will create a simple example to perform the calculation of Shipping Fees. The example may be [downloaded here](workbook-examples.md).
 
 ![](../../.gitbook/assets/0.png)
