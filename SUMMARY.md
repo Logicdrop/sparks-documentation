@@ -33,6 +33,11 @@
 * [Introduction to Sparks Documents](documents/introduction.md)
 * [Installing Sparks Documents](documents/installing-sparks-documents.md)
 
+## Resources
+
+* [Glossary of Terminology](resources/glossary-of-terminology.md)
+* [Helpful Links](resources/helpful-links.md)
+
 ## Development
 
 * [Open API](development/open-api.md)
