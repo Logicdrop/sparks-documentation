@@ -33,7 +33,7 @@ Example inputs, when available, are a good way to provide a template-like starti
 
 When testing rules they will always expect some “input” in a standardized structure \(you can define the expectations within the inputs but for simple requests they will always have an inputs and outputs node\) and produce some “output.”
 
-The structure of the simple “input/output” payload used for testing is described in detail at [Anatomy of a Processor Request](rulesets-api/executing-rules.md#a-simple-processor-request).
+The structure of the simple “input/output” payload used for testing is described in detail at [Anatomy of a Processor Request](rulesets-api/executing-rules.md).
 
 {% page-ref page="rulesets-api/executing-rules.md" %}
 
