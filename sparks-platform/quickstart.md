@@ -28,7 +28,7 @@ Click the **New Project** button
 
 Provide a project name, set the project type to **Template,** and select “insurance” from the drop-down.
 
-![](../../.gitbook/assets/create-project.png)
+![](../.gitbook/assets/create-project.png)
 
 Click **Create Project**, then click the newly created project label to open it.
 
@@ -39,21 +39,21 @@ Once your project is open, click **Rules** from the left hand navigation menu.
 {% hint style="info" %}
 A **Ruleset** in Sparks is a group of business rules, or logical statements, which work together to achieve a common task. Examples include calculating a shipping cost, scoring a lead, or approving an insurance application.
 
-[→ More on Rules](../compute-intro.md)
+[→ More on Rules](compute-intro.md)
 {% endhint %}
 
-![The Ruleset List Interface](../../.gitbook/assets/projects.png)
+![The Ruleset List Interface](../.gitbook/assets/projects.png)
 
 Click the **Calculate Policy Price** Ruleset to open it.
 
 You are now taken to the home page of the ruleset. On the first tab, the **Containers** for the ruleset are listed:
 
-![](../../.gitbook/assets/container.png)
+![](../.gitbook/assets/container.png)
 
 {% hint style="info" %}
 A **Container** in Sparks is a running instance of a **Ruleset**, at a specific version. Each container starts a unique endpoint which can be used to execute the rules within.
 
-[→ More on Containers](../compute-intro.md#containers)
+[→ More on Containers](compute-intro.md#containers)
 {% endhint %}
 
 Click the **Publish** button on the default `1.0.0` container for our ruleset. The latest version of all the rules in this container will then be compiled and automatically started. Once published, the container can be started or stopped from this interface.
@@ -66,7 +66,7 @@ Note that if a container fails to publish due to errors in a rule, the previous 
 
 Now, to test our rules. Click **Test Ruleset** in the upper right-hand corner of the open **Calculate Policy Price** Ruleset.
 
-![ The Test Ruleset Page](../../.gitbook/assets/test-ruleset.png)
+![ The Test Ruleset Page](../.gitbook/assets/test-ruleset.png)
 
 The **Test Ruleset** page is a convenient way to test your running rulesets, and even compare results against multiple running containers.
 
@@ -129,7 +129,7 @@ Some other things to try:
 
 You have now created, deployed, and tested a running web service to calculate insurance pricing for a fictional underwriter. This service is running in the cloud and can easily scale to tens of thousands of requests or more.
 
-We hope this small preview has been helpful in showing a glimpse of some Sparks Platform functionality. Next, we recommend continuing to learn about [Business Rules Engines and their terminology](../compute-intro.md), and then continue through the [more in depth areas](authoring-decision-tables/) of the documentation.
+We hope this small preview has been helpful in showing a glimpse of some Sparks Platform functionality. Next, we recommend continuing to learn about [Business Rules Engines and their terminology](compute-intro.md), and then continue through the [more in depth areas](authoring-decision-tables/) of the documentation.
 
 More advanced users and developers will find it useful to read the API documentation on how to achieve each of these steps though our comprehensive [REST API](https://docs.logicdrop.io).
 
