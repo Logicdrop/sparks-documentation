@@ -14,6 +14,8 @@
   * [Datasets API](sparks-platform/datasets/datasets-api.md)
 * [Rulesets](sparks-platform/rulesets/README.md)
   * [Working with Rulesets](sparks-platform/rulesets/working-with-rulesets.md)
+  * [Containers](sparks-platform/rulesets/containers.md)
+  * [Decision Tables](sparks-platform/rulesets/decision-tables.md)
 * [Guides](sparks-platform/sparks-guides/README.md)
   * [5-Minute Quickstart](sparks-platform/quickstart.md)
   * [Authoring Decision Tables](sparks-platform/authoring-decision-tables/README.md)
