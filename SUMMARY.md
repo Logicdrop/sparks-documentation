@@ -4,6 +4,7 @@
 
 ## Sparks Platform
 
+* [Introduction](sparks-platform/introduction.md)
 * [Business Rules Engines and Related Terminology](sparks-platform/compute-intro.md)
 * [Projects](sparks-platform/projects/README.md)
   * [Working with Projects](sparks-platform/projects/working-with-projects.md)
