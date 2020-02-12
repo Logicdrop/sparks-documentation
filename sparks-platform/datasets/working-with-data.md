@@ -1,4 +1,4 @@
-# Working with Data
+# Working with Datasets
 
 To navigate to the Datasets workspace, click on the **Datasets** tile from an open project, or **Data** in the navigation sidebar.
 

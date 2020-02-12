@@ -6,5 +6,5 @@ description: >-
 
 # Workbook Examples
 
-{% file src="../../../.gitbook/assets/shipping-fee-examples.xlsx" caption="Shipping Fees Example" %}
+{% file src="../../.gitbook/assets/shipping-fee-examples.xlsx" caption="Shipping Fees Example" %}
 

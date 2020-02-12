@@ -16,7 +16,7 @@ fee.getBaseFee() - fee.getDiscount()
 
 When, for example the base fee, column has been defined like this:
 
-![](../../../.gitbook/assets/5.png)
+![](../../.gitbook/assets/5.png)
 
 When declaring a model, and not assigning a variable name, the default name to access the model in formulas is to add “Fact” to the end of the model name. Therefore, `fee.getBaseFee()` should be `feeFact.getBaseFee`. The reason for this appended word is for the rule processor to use terminology pertaining to rules.
 
