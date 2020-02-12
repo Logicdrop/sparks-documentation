@@ -27,6 +27,8 @@ To navigate to the Datasets workspace, click on the **Datasets** tile from an op
 
 From the Datasets workspace you can view and navigate to existing datasets, or create a new one by clicking on the **New Dataset** button in the upper-right-hand corner.
 
+![](https://lh3.googleusercontent.com/30YYUjmYKmAly-x757izlM5KPC84EL7lwsbuVCHitvB1BRkU2IEzpw-IOfGZ7wNN9xFcVyjmzt9Ox-KbjxkqRcaO71ojbvFbJdM-8b5X6WfGvWXMMeJ1de_GUiFTpl9za-6gMBew)
+
 ## Types of Datasets
 
 Datasets can be classified as either document-based \(a single record\) or collection-based \(many records\).
@@ -73,15 +75,19 @@ This format is useful when connecting to existing databases, or when the size of
 
 The collection-based view of a dataset displays tabular rows of data which can be independently  created, edited, and deleted. 
 
+![](https://lh6.googleusercontent.com/kMbhCsJTFXCABe9K3sFC2WDBXxmDYKkOWRDW2H_RmUSBgOFQoSeb73p-9fRDvlgRizRkBLEHLnBuGV_bdWXst72qBAva28hU3qDXxOu6ItBMlBCXEPoOHux8ZFH4Ub0QqqgD4e5i)
+
 Collection-based datasets also support advance querying, sorting, and filtering of the rows within.
 
 **Richly Structured Rows**
 
 One unique difference in our collection-based dataset is when you choose to use our NoSQL datastore to house the data. In this scenario, each row and the fields within a row, can be a “deeply” structured document similar to how document-based collections work. This opens up a whole world of possibilities when working with data.
 
-At a first glance, the record view looks the same as above until you navigate into one of the rows for editing.
+At a first glance, the record view looks the same as above until you navigate into a row with nested data for editing:
 
-Selecting a row and editing it, you can see it has a rich data structure for its fields rather than just a field and value per row, and each nested field can be edited independently.
+![](https://lh6.googleusercontent.com/lzOCYAJXjluiKhI9P1CGNX4GP4vYS9dTmqRxHbRHZ0OmLr5yBI_aDV5WUijVnrrmmPOETOjjcni7VqUKUvQaGslg5QFadlR0Pd25TTe8kOHYegR4wHiUD-chiLNyE5In6HD1BE89)
+
+Selecting a row and editing it, you can see it has a rich data structure for its fields rather than just a field and value per row, and each nested field, such as `address`, can be edited independently with an expandable editor.
 
 Using our NoSQL store we can have fields that are deeply structured data themselves like the below example.
 
