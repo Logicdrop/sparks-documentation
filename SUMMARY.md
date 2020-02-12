@@ -7,12 +7,13 @@
 * [5-Minute Quickstart](sparks-platform/quickstart.md)
 * [Business Rules Engines and Related Terminology](sparks-platform/compute-intro.md)
 * [Projects](sparks-platform/projects.md)
+* [Datasets](sparks-platform/datasets.md)
 * [Guides](sparks-platform/sparks-guides/README.md)
-  * [Authoring Decision Tables](sparks-platform/sparks-guides/authoring-decision-tables/README.md)
-    * [Creating a Workbook](sparks-platform/sparks-guides/authoring-decision-tables/creating-a-workbook.md)
-    * [Deploying a Workbook](sparks-platform/sparks-guides/authoring-decision-tables/deploying-a-workbook.md)
-    * [Workbook Examples](sparks-platform/sparks-guides/authoring-decision-tables/workbook-examples.md)
-    * [Common Pitfalls](sparks-platform/sparks-guides/authoring-decision-tables/common-pitfalls.md)
+  * [Authoring Decision Tables](sparks-platform/authoring-decision-tables/README.md)
+    * [Creating a Workbook](sparks-platform/authoring-decision-tables/creating-a-workbook.md)
+    * [Deploying a Workbook](sparks-platform/authoring-decision-tables/deploying-a-workbook.md)
+    * [Workbook Examples](sparks-platform/authoring-decision-tables/workbook-examples.md)
+    * [Common Pitfalls](sparks-platform/authoring-decision-tables/common-pitfalls.md)
 
 ## Sparks Documents <a id="documents"></a>
 
