@@ -1,2 +1,0 @@
-# Authoring Decision Tables
-
