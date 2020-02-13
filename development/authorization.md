@@ -74,7 +74,7 @@ password
 
 ```text
 {
-    "access_token": "eyJ0eXAiOiJKV1QiLCJhbG...",
+    "access_token": "...",
     "scope": "data admin core",
     "expires_in": 2592000,
     "token_type": "Bearer"
@@ -90,7 +90,7 @@ password
 Finally, use the token you have obtained in requests to the Sparks API by including it as a JWT bearer token in the `Authorization` header:
 
 ```bash
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1N...
+Authorization: Bearer ...
 ```
 
 ### Refreshing the token
