@@ -1,6 +1,6 @@
 # Authorizing Requests to the API
 
-To authorize requests to the Sparks API, you can request a token using your username and password, or an application must be created to provide a token via the Machine Credentials OAuth2 flow.
+To authorize requests to the Sparks API, you can request a token using your username and password via the Password Grant OAuth2 flow. Though you could use your normal user account for this, we recommend creating a dedicated "API" user for remote use of the API. For example, "api@mycompany.com".
 
 {% hint style="info" %}
 When using the Sparks Portal UI, a token is obtained for your specific user account in the background and these steps are not required.
@@ -8,13 +8,9 @@ When using the Sparks Portal UI, a token is obtained for your specific user acco
 
 ## User Password
 
-### Obtaining a User Password Token
+### Obtaining an API token using a Sparks user and password 
 
-Obtaining a user password will give you the same access to the Sparks API that you are allowed when you are in the Portal. To create a user password token you will create the following request,
-
-{% hint style="info" %}
-The client ID will be the same for every request.
-{% endhint %}
+To obtain a token to access the API, initiate a Password Grant OAuth2  request, using the following request body as a guide.
 
 ```bash
 {
@@ -26,9 +22,13 @@ The client ID will be the same for every request.
 }
 ```
 
+{% hint style="info" %}
+The client ID is required and will be the same for every request.
+{% endhint %}
+
 {% api-method method="post" host="https://auth.logicdrop.io" path="/oauth/token" %}
 {% api-method-summary %}
-Request a Password token
+Request an API token
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -49,11 +49,11 @@ rLxjriMyfD3PAdXTQfFyKFUODrseHvSg
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="username" type="string" required=true %}
-
+Your API user name
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="password" type="string" required=true %}
-
+Your API user password
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="audience" type="string" required=true %}
@@ -97,93 +97,5 @@ Authorization: Bearer ...
 
 When a token is close to expiration, repeat the token request to obtain a fresh token. At this time the authorization server does not accept refresh tokens for machine-to-machine tokens for security. The default token expiration is 24 hours.
 
-## Machine-to-Machine
 
-### Creating a machine-to-machine credential
-
-An application credential allows access to the Sparks API for a specific client at a specified role.
-
-1. In the Sparks Portal user interface, access the client settings, then applications. 
-2. Create a new application and specify the role to designate \(usually Admin.\)
-3. Make note of the newly assigned `Client ID` and `Client Secret`.
-
-An application may also be created from the Sparks API \(with a valid token of course\): [Sparks API: Create an Application](https://docs.logicdrop.io/#operation/createApplication)
-
-{% hint style="warning" %}
-Be careful with these credentials! Practice good secret management and never share them or check them in to source control, or others may gain access to your Sparks account data.
-{% endhint %}
-
-### Obtaining a machine-to-machine token
-
-Next, use the client ID and secret you obtained to make a token request to the Sparks Authorization server:
-
-```bash
-{
-    "client_id":"{{Your client ID}}",
-    "client_secret":"{{Your client secret}}",
-    "audience":"https://api.logicdrop.io",
-    "grant_type":"client_credentials"
-}
-```
-
-{% api-method method="post" host="https://auth.logicdrop.io" path="/oauth/token" %}
-{% api-method-summary %}
-Request a M2M token
-{% endapi-method-summary %}
-
-{% api-method-description %}
-Request an access token
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-headers %}
-{% api-method-parameter name="Content-Type" type="string" required=true %}
-application/json
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
-
-{% api-method-body-parameters %}
-{% api-method-parameter name="client\_id" type="string" required=true %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="client\_secret" type="string" required=true %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="audience" type="string" required=true %}
-https://api.logicdrop.io
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="grant\_type" type="string" required=true %}
-client\_credentials
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```text
-{
-    "access_token": "eyJ0eXAiOiJKV1QiLCJhbG...",
-    "scope": "data admin core",
-    "expires_in": 2592000,
-    "token_type": "Bearer"
-}
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-### Rotating Secrets and Revoking Access
-
-It is recommended occasionally to rotate the secret for your issued application credentials. Using the rotate secret option in the Portal UI or Sparks API will rotate and return a new secret \(the old secret will no longer function.\) Use the new secret to update any dependent clients.
-
-If you wish to remove access completely for an application, deleting the application in the Portal UI or Sparks API will decommission it for future token requests. Note that it may take up to 24 hours for all tokens issues with these credentials to expire.
 
