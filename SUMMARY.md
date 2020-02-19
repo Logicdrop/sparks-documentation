@@ -1,10 +1,11 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [Welcome to Logicdrop Sparks](README.md)
 
 ## Sparks Platform
 
 * [Introduction](sparks-platform/introduction.md)
+* [5-Minute Quickstart](sparks-platform/quickstart.md)
 * [Business Rules Engines and Related Terminology](sparks-platform/compute-intro.md)
 * [Projects](sparks-platform/projects/README.md)
   * [Working with Projects](sparks-platform/projects/working-with-projects.md)
@@ -20,9 +21,7 @@
   * [Decision Tables](sparks-platform/rulesets/decision-tables.md)
   * [Rulesets API](sparks-platform/rulesets/rulesets-api/README.md)
     * [Executing Rules](sparks-platform/rulesets/rulesets-api/executing-rules.md)
-* [FAQs](sparks-platform/faqs.md)
 * [Guides](sparks-platform/sparks-guides/README.md)
-  * [5-Minute Quickstart](sparks-platform/sparks-guides/quickstart.md)
   * [Authoring Decision Tables](sparks-platform/sparks-guides/authoring-decision-tables/README.md)
     * [Creating a Workbook](sparks-platform/sparks-guides/authoring-decision-tables/creating-a-workbook.md)
     * [Deploying a Workbook](sparks-platform/sparks-guides/authoring-decision-tables/deploying-a-workbook.md)
@@ -33,11 +32,6 @@
 
 * [Introduction to Sparks Documents](documents/introduction.md)
 * [Installing Sparks Documents](documents/installing-sparks-documents.md)
-
-## Resources
-
-* [Glossary of Terminology](resources/glossary-of-terminology.md)
-* [Helpful Links](resources/helpful-links.md)
 
 ## Development
 
@@ -50,4 +44,10 @@
   * [NodeJS API Client](development/sample-clients/nodejs-client.md)
   * [Python API Client](development/sample-clients/python-api-client.md)
 * [Example Applications](development/example-applications.md)
+
+## Resources
+
+* [FAQs](resources/faqs.md)
+* [Glossary of Terminology](resources/glossary-of-terminology.md)
+* [Helpful Links](resources/helpful-links.md)
 
