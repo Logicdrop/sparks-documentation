@@ -31,7 +31,7 @@ Add this dependency to your project's POM:
 <dependency>
   <groupId>io.logicdrop.sparks</groupId>
   <artifactId>sparks-openapi-spring</artifactId>
-  <version>4.1.1-SNAPSHOT</version>
+  <version>4.3.2-SNAPSHOT</version>
   <scope>compile</scope>
 </dependency>
 ```
@@ -70,7 +70,7 @@ import io.logicdrop.openapi.spring.api.CacheServicesApi;
 public class CacheServicesApiExample {
 
     public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
+        ApiClient defaultClient = new ApiClient();
         defaultClient.setBasePath("https://api.staging.com");
 
         // Configure API key authorization: api
