@@ -31,7 +31,7 @@ Add this dependency to your project's POM:
 <dependency>
   <groupId>io.logicdrop.sparks</groupId>
   <artifactId>sparks-openapi-java</artifactId>
-  <version>4.1.1-SNAPSHOT</version>
+  <version>4.3.2-SNAPSHOT</version>
   <scope>compile</scope>
 </dependency>
 ```
@@ -69,7 +69,7 @@ import io.logicdrop.openapi.java.api.CacheServicesApi;
 public class CacheServicesApiExample {
 
     public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
+        ApiClient defaultClient = new ApiClient();
         // Configure clients using the `defaultClient` object, such as
         // overriding the host and port, timeout, etc.
         CacheServicesApi apiInstance = new CacheServicesApi(defaultClient);
