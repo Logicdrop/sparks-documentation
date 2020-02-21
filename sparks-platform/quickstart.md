@@ -64,11 +64,13 @@ Note that if a container fails to publish due to errors in a rule, the previous 
 
 ## Testing a ruleset
 
-Now, to test our rules. Click **Test Ruleset** in the upper right-hand corner of the open **Calculate Policy Price** Ruleset.
+Now, to test our rules. Click **Sample Ruleset** in the upper right-hand corner of the open **Calculate Policy Price** Ruleset.
+
+![](../.gitbook/assets/sample-ruleset.png)
 
 ![ The Test Ruleset Page](../.gitbook/assets/test-ruleset.png)
 
-The **Test Ruleset** page is a convenient way to test your running rulesets, and even compare results against multiple running containers.
+The **Sample Ruleset** page is a convenient way to test your running rulesets, and even compare results against multiple running containers.
 
 {% hint style="warning" %}
 Note that _at least one_ container must be running to use the Test Ruleset page
