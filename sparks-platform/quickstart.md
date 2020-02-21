@@ -68,7 +68,7 @@ Note that if a container fails to publish due to errors in a rule, the previous 
 
 Now, to test our rules. Click **Run Rules** under Rules in the left hand navigation bar.
 
-![](../.gitbook/assets/runrules%20%281%29.png)
+![](../.gitbook/assets/runrules%20%282%29.png)
 
 The **Run Rules** page is a convenient way to test your running rulesets, and even compare results against multiple running containers.
 
