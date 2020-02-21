@@ -66,13 +66,11 @@ Note that if a container fails to publish due to errors in a rule, the previous 
 
 ## Testing a ruleset
 
-![](../.gitbook/assets/sample-ruleset.png)
+Now, to test our rules. Click **Run Rules** under Rules in the left hand navigation bar.
 
-Now, to test our rules. Click **Sample Ruleset** in the upper right-hand corner of the open **Calculate Policy Price** Ruleset.
+![](../.gitbook/assets/runrules%20%281%29.png)
 
-![ The Test Ruleset Page](../.gitbook/assets/test-ruleset.png)
-
-The **Sample Ruleset** page is a convenient way to test your running rulesets, and even compare results against multiple running containers.
+The **Run Rules** page is a convenient way to test your running rulesets, and even compare results against multiple running containers.
 
 {% hint style="warning" %}
 Note that _at least one_ container must be running to use the Sample Ruleset page
@@ -83,6 +81,8 @@ To run a ruleset, a container must be **Executed**. This means that data is pass
 For convenience, input requests may be saved and recalled. In this example, we will now select the stored “**calculate-policy-price**” input from the Input drop-down on the left hand pane. This loads a JSON object describing a 24-year-old male driver and some additional facts about their vehicle accessories and base policy.
 
 Now, click **Run** and the inputs will be sent to the running container.
+
+![](../.gitbook/assets/runrules.png)
 
 In the right-hand pane you can now view the output results. Look for the "policy" fact in the result set. It should reveal an `approved` status of true and a calculated `insurancePrice`. These values are entirely calculated by the defined rules.
 
