@@ -68,17 +68,17 @@ Now, to test our rules. Click **Sample Ruleset** in the upper right-hand corner 
 
 ![](../.gitbook/assets/sample-ruleset.png)
 
-![ The Test Ruleset Page](../.gitbook/assets/test-ruleset.png)
-
 The **Sample Ruleset** page is a convenient way to test your running rulesets, and even compare results against multiple running containers.
 
+![ The Test Ruleset Page](../.gitbook/assets/test-ruleset.png)
+
 {% hint style="warning" %}
-Note that _at least one_ container must be running to use the Test Ruleset page
+Note that _at least one_ container must be running to use the Sample Ruleset page
 {% endhint %}
 
 To run a ruleset, a container must be **Executed**. This means that data is passed in as inputs to a request to the running container, the rules are fired, and any modified or newly created data by the rules are returned back.
 
-For convince, input requests may be saved and recalled. In this example, we will now select the stored “**calculate-policy-price**” input from the Input drop-down on the left hand pane. This loads a JSON object describing a 24-year-old male driver and some additional facts about their vehicle accessories and base policy.
+For convenience, input requests may be saved and recalled. In this example, we will now select the stored “**calculate-policy-price**” input from the Input drop-down on the left hand pane. This loads a JSON object describing a 24-year-old male driver and some additional facts about their vehicle accessories and base policy.
 
 Now, click **Run** and the inputs will be sent to the running container.
 
