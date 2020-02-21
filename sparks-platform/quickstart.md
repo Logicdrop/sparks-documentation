@@ -24,11 +24,11 @@ In order to start using the Logicdrop Sparks Platform, you will need to register
 If it is not open already, navigate to the Sparks Portal: [**https://sparks.logicdrop.io**](https://sparks.logicdrop.io)
 {% endhint %}
 
-Click the **New Project** button
+Click the **New Project** button in the upper right hand corner.
 
-Provide a project name, set the project type to **Template,** and select “insurance” from the drop-down.
+Select the first folder "**Insurance Example**" and provide a project name. Let's call it _**"My First Project"**_
 
-![](../.gitbook/assets/create-project.png)
+![](../.gitbook/assets/insexampleprjct.png)
 
 Click **Create Project**, then click the newly created project label to open it.
 
@@ -44,11 +44,11 @@ A **Ruleset** in Sparks is a group of business rules, or logical statements, whi
 
 ![The Ruleset List Interface](../.gitbook/assets/projects.png)
 
-Click the **Calculate Policy Price** Ruleset to open it.
+From the Rules dropdown on the left hand navigation menu click **Containers.**
 
-You are now taken to the home page of the ruleset. On the first tab, the **Containers** for the ruleset are listed:
+Click the **Publish** button ****next to the **Calculate Policy Price** ruleset. 
 
-![](../.gitbook/assets/container.png)
+![](../.gitbook/assets/calculateprcpolcy%20%281%29.png)
 
 {% hint style="info" %}
 A **Container** in Sparks is a running instance of a **Ruleset**, at a specific version. Each container starts a unique endpoint which can be used to execute the rules within.
@@ -56,7 +56,9 @@ A **Container** in Sparks is a running instance of a **Ruleset**, at a specific 
 [→ More on Containers](compute-intro.md#containers)
 {% endhint %}
 
-Click the **Publish** button on the default `1.0.0` container for our ruleset. The latest version of all the rules in this container will then be compiled and automatically started. Once published, the container can be started or stopped from this interface.
+The latest version of all the rules in this container will then be compiled and automatically started. Once published, the container will show as "**RUNNING**" and can be started or stopped from this interface.
+
+![](../.gitbook/assets/running%20%281%29.png)
 
 {% hint style="warning" %}
 Note that if a container fails to publish due to errors in a rule, the previous version will be used when that container is started or executed.
