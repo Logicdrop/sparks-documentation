@@ -26,7 +26,7 @@ If it is not open already, navigate to the Sparks Portal: [**https://sparks.logi
 
 Click the **New Project** button in the upper right hand corner.
 
-Select the first folder "**Insurance Example**" and provide a project name. Let's call it _**"My First Project"**_
+Select "**Insurance Example**" from the list of templates and provide a project name. Let's call it _**"My First Project"**_
 
 ![](../.gitbook/assets/insexampleprjct.png)
 
