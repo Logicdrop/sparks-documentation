@@ -59,7 +59,7 @@ Then manually install the following JARs:
 
 ## Getting Started
 
-Please follow the [installation]() instruction and execute the following Java code:
+Please follow the [installation](java.md) instruction and execute the following Java code:
 
 ```java
 import io.logicdrop.openapi.java.*;

@@ -28,7 +28,7 @@ Click the **New Project** button in the upper right hand corner.
 
 Select "**Insurance Example**" from the list of templates and provide a project name. Let's call it _**"My First Project"**_
 
-![](../.gitbook/assets/insexampleprjct.png)
+![](../.gitbook/assets/myfirstproject.png)
 
 Click **Create Project**, then click the newly created project label to open it.
 
@@ -42,13 +42,13 @@ A **Ruleset** in Sparks is a group of business rules, or logical statements, whi
 [→ More on Rules](compute-intro.md)
 {% endhint %}
 
-![The Ruleset List Interface](../.gitbook/assets/projects.png)
+![](../.gitbook/assets/quickstart1.png)
 
-From the Rules dropdown on the left hand navigation menu click **Containers.**
+From the Rules dropdown on the left hand navigation menu click **Publish.**
 
 Click the **Publish** button ****next to the **Calculate Policy Price** ruleset. 
 
-![](../.gitbook/assets/calculateprcpolcy%20%281%29.png)
+![](../.gitbook/assets/quickstart2.png)
 
 {% hint style="info" %}
 A **Container** in Sparks is a running instance of a **Ruleset**, at a specific version. Each container starts a unique endpoint which can be used to execute the rules within.
@@ -58,7 +58,7 @@ A **Container** in Sparks is a running instance of a **Ruleset**, at a specific 
 
 The latest version of all the rules in this container will then be compiled and automatically started. Once published, the container will show as "**RUNNING**" and can be started or stopped from this interface.
 
-![](../.gitbook/assets/running%20%281%29.png)
+![](../.gitbook/assets/sparksrunning.png)
 
 {% hint style="warning" %}
 Note that if a container fails to publish due to errors in a rule, the previous version will be used when that container is started or executed.
@@ -66,11 +66,11 @@ Note that if a container fails to publish due to errors in a rule, the previous 
 
 ## Testing a ruleset
 
-Now, to test our rules. Click **Run Rules** under Rules in the left hand navigation bar.
+Now, to test our rules. Click **Test** under Rules in the left hand navigation bar.
 
-![](../.gitbook/assets/runrules%20%282%29.png)
+![](../.gitbook/assets/testrules.png)
 
-The **Run Rules** page is a convenient way to test your running rulesets, and even compare results against multiple running containers.
+The **Test Rules** page is a convenient way to test your running rulesets, and even compare results against multiple running containers.
 
 {% hint style="warning" %}
 Note that _at least one_ container must be running to use the Sample Ruleset page
@@ -82,7 +82,7 @@ For convenience, input requests may be saved and recalled. In this example, we w
 
 Now, click **Run** and the inputs will be sent to the running container.
 
-![](../.gitbook/assets/runrules.png)
+![](../.gitbook/assets/runrulesportal.png)
 
 In the right-hand pane you can now view the output results. Look for the "policy" fact in the result set. It should reveal an `approved` status of true and a calculated `insurancePrice`. These values are entirely calculated by the defined rules.
 
