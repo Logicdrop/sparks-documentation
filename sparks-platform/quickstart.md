@@ -13,7 +13,7 @@ In order to start using the Logicdrop Sparks Platform, you will need to register
 1. Go to [**https://logicdrop.com/signup**](https://logicdrop.com/signup/).
 2. Fill out the form or use your Google account to signup.
 3. Approve the email notification that will be sent to you \(make sure to check that it did not arrive in your spam folder\). 
-4. Once approved, you will be redirected to the Sparks Portal: [**https://sparks.logicdrop.io**](https://sparks.logicdrop.io)
+4. Once approved, you will be redirected to the client portal: [**https://sparks.logicdrop.io**](https://sparks.logicdrop.io)
 5. Enter a client identifier \(lowercase with dashes instead of spaces\). This is a unique id for your account, and may not be changed once created.
 6. Enter your client details and optional coupon code, if one was provided to you.
 7. Finally, submit the form and your new account will be provisioned.
@@ -21,7 +21,7 @@ In order to start using the Logicdrop Sparks Platform, you will need to register
 ## Create a new project
 
 {% hint style="info" %}
-If it is not open already, navigate to the Sparks Portal: [**https://sparks.logicdrop.io**](https://sparks.logicdrop.io)
+If it is not open already, navigate to the client portal: [**https://sparks.logicdrop.io**](https://sparks.logicdrop.io)
 {% endhint %}
 
 Click the **New Project** button in the upper right hand corner.
@@ -56,7 +56,7 @@ A **Container** in Sparks is a running instance of a **Ruleset**, at a specific 
 [→ More on Containers](compute-intro.md#containers)
 {% endhint %}
 
-The latest version of all the rules in this container will then be compiled and automatically started. Once published, the container will show as "**RUNNING**" and can be started or stopped from this interface.
+The latest version of all the rules in this container will then be compiled and automatically started. Once published, the container will show a green circle check mark which indicates the container is _**running**_. Your container can be started or stopped from this interface.
 
 ![](../.gitbook/assets/sparksrunning.png)
 
