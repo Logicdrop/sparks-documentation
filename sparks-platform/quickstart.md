@@ -26,13 +26,13 @@ If it is not open already, navigate to the client portal: [**https://sparks.logi
 
 Click the **New Project** button in the upper right hand corner.
 
-Select "**Insurance Example**" from the list of templates and provide a project name. Let's call it _**"My First Project"**_
+Select "**Sparks Tutorial**" from the list of templates and provide a project name. Let's call it _**"Quickstart"**_
 
-![](../.gitbook/assets/myfirstproject.png)
+![](../.gitbook/assets/quickstartsparkstutorial.png)
 
 Click **Create Project**, then click the newly created project label to open it.
 
-## Publish a ruleset
+## Ruleset
 
 Once your project is open, click **Rules** from the left hand navigation menu.
 
@@ -42,13 +42,7 @@ A **Ruleset** in Sparks is a group of business rules, or logical statements, whi
 [→ More on Rules](compute-intro.md)
 {% endhint %}
 
-![](../.gitbook/assets/quickstart1.png)
-
-From the Rules dropdown on the left hand navigation menu click **Publish.**
-
-Click the **Publish** button ****next to the **Calculate Policy Price** ruleset. 
-
-![](../.gitbook/assets/quickstart2.png)
+![](../.gitbook/assets/rulesetsqckstrt.png)
 
 {% hint style="info" %}
 A **Container** in Sparks is a running instance of a **Ruleset**, at a specific version. Each container starts a unique endpoint which can be used to execute the rules within.
@@ -56,78 +50,37 @@ A **Container** in Sparks is a running instance of a **Ruleset**, at a specific 
 [→ More on Containers](compute-intro.md#containers)
 {% endhint %}
 
-The latest version of all the rules in this container will then be compiled and automatically started. Once published, the container will show a green circle check mark which indicates the container is _**running**_. Your container can be started or stopped from this interface.
-
-![](../.gitbook/assets/sparksrunning.png)
-
 {% hint style="warning" %}
 Note that if a container fails to publish due to errors in a rule, the previous version will be used when that container is started or executed.
 {% endhint %}
 
-## Testing a ruleset
+## Testing Rules
 
-Now, to test our rules. Click **Test** under Rules in the left hand navigation bar.
+Now, to test our rules. Click the **Test** button for the _**Calculate Policy Price**_ item.
 
-![](../.gitbook/assets/testrules.png)
+![](../.gitbook/assets/testquickstart.png)
 
-The **Test Rules** page is a convenient way to test your running rulesets, and even compare results against multiple running containers.
+In the right corner click **Run.**
 
 {% hint style="warning" %}
-Note that _at least one_ container must be running to use the Sample Ruleset page
+The **Test Rules** page is a convenient way to test your running rulesets, and even compare results against multiple running containers.
 {% endhint %}
 
-To run a ruleset, a container must be **Executed**. This means that data is passed in as inputs to a request to the running container, the rules are fired, and any modified or newly created data by the rules are returned back.
+![](../.gitbook/assets/runrulesqckstrt.png)
 
-For convenience, input requests may be saved and recalled. In this example, we will now select the stored “**calculate-policy-price**” input from the Input drop-down on the left hand pane. This loads a JSON object describing a 24-year-old male driver and some additional facts about their vehicle accessories and base policy.
+{% hint style="danger" %}
+Because rule execution uses “serverless” technology, if a ruleset is executed for the first time and no instances are available it needs to provision the instance first. This can initially take a short amount of time \(&lt; 30s\). Once an instance is available, execution performance should be normal.
+{% endhint %}
 
-Now, click **Run** and the inputs will be sent to the running container.
+For convenience, input requests may be saved and recalled. Try changing the input data on the left then click Run again after each change.
+
+* Change **alarmSystemValue** to a different amount.
+* Change **maritalState** to _SINGLE_
+* Change age from 24 to 17.
 
 ![](../.gitbook/assets/runrulesportal.png)
 
 In the right-hand pane you can now view the output results. Look for the "policy" fact in the result set. It should reveal an `approved` status of true and a calculated `insurancePrice`. These values are entirely calculated by the defined rules.
-
-### Testing Different Inputs
-
-Next, let's make some changes to the input data:
-
-```text
-{
-    "inputs": [
-        {
-            "_class": "driver",
-            "id": 400,
-            "gender": "MALE",
-            "maritalState": "SINGLE",
-            "licenseYears": 2,
-            "age": 18
-        },
-        {
-            "_class": "details",
-            "driverId": 400,
-            "dayVehiclePlace": "STREET",
-            "nightVehiclePlace": "STREET"
-        },
-        {
-            "_class": "accessories",
-            "driverId": 400,
-            "alarmSystemValue": 350.00,
-            "armorValue": 1500.00,
-            "soundSystemValue": 700.00
-        }
-    ],
-    "outputs": [
-        "policy",
-        "rejection"
-    ]
-}
-```
-
-Click **Run.** The returned policy should now show newly calculated prices.
-
-Some other things to try:
-
-* Change `gender` from MALE to FEMALE
-* Change `alarmSystemValue` to a different amount
 
 ## Closing
 
